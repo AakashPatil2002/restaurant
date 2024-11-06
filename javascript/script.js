@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $(".hero-carousel").owlCarousel({
+        items:1,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        dots:false
+    });
+    $(".bestseller-slider").owlCarousel({
+        items:1,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000
+    });
+});
